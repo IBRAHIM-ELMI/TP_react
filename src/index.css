@@ -1,0 +1,70 @@
+body {
+	background-color: #D2B48C;
+}
+
+.btn_menu {
+	background-color: gray;
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 25px;
+	width: 150px;
+	height: 75px;
+	color: black;
+	cursor: pointer;
+}
+.entete {
+	width: 400px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: #222;
+	height: 50px;
+	padding: 10px;
+	color: white;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 40px;
+}
+
+.valueDIV p{
+	font-size: 35px;
+}
+.valueDIV span {
+	font-size: 50px;
+	color: blue;
+}
+.historyDIV{
+	font-size: 30px;
+}
+table, tr, td {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+	width: 200px;
+	text-align: center;
+}
+tr{
+	background-color: #B0E0E6;
+}
+tr:nth-child(even){
+	background-color: white;
+}
+.tryALIGN{
+	display: flex;
+}
+.affichage_milieu {
+	margin: auto;
+}
+.menu_gauche{
+	background-color:  	#DCDCDC;
+	border: 3px solid #008080;
+	padding: 30px;
+	border-radius: 10px;
+	height: 350px;
+}
+.imgHOME{
+	cursor: pointer;
+}
+.active{
+	background-color: red;
+}
